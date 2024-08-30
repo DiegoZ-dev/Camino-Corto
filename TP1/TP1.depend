@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1662510623 source:f:\programacion c - universidad\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1665246298 source:f:\programacionc-universidad\tp1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+

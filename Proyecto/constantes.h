@@ -1,0 +1,11 @@
+#ifndef CONSTANTES_H_INCLUDED
+#define CONSTANTES_H_INCLUDED
+
+#define FALSE 0
+#define TRUE 1
+#define CCP_NO_INI 2
+#define POS_NULA NULL
+#define ELE_NULO NULL
+#define ARCHIVO_CORRUPTO -1
+
+#endif // CONSTANTES_H_INCLUDED
