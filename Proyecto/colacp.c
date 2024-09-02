@@ -9,14 +9,17 @@ TColaCP crear_cola_cp(int (*f)(TEntrada, TEntrada))
     cola->cantidad_elementos= 0;
     cola->raiz= NULL;
     cola->comparador = f;
+
+    return cola;
 }
 
 int cp_insertar(TColaCP cola, TEntrada entr) {
-
+  return 0;
 }
+/*
 TEntrada cp_eliminar(TColaCP cola) {
 
-}
+}*/
 
 int cp_cantidad(TColaCP cola)
 {
@@ -24,9 +27,9 @@ int cp_cantidad(TColaCP cola)
     return cola->cantidad_elementos;
 }
 
-void cp_destruir(TColaCP cola, void(*fEliminar) (TEntrada)) {
+/*void cp_destruir(TColaCP cola, void(*fEliminar) (TEntrada)) {
     while (cola->cantidad_elementos > 0) {
         fEliminar(cp_eliminar(cola));
     }
-}
+}*/
 
